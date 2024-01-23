@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM Management Services</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+        /* Smartphones (portrait and landscape) ---------- */
+     @media screen and (min-width: 320px) and (max-width: 480px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* Smartphones (portrait) ---------- */
+     @media screen and (max-width: 320px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* Smartphones (landscape) ---------- */
+     @media screen and (min-width: 321px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* tablets, iPads (portrait and landscape) ---------- */
+     @media screen and (min-width: 768px) and (max-width: 1024px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* tablets, iPads (portrait) ---------- */
+     @media screen and (min-width: 768px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* tablets, iPads (landscape) ---------- */
+     @media screen and (min-width: 1024px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* Desktops and laptops ---------- */
+     @media screen and (min-width: 1224px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+     /* Large screens ---------- */
+     @media screen and (min-width: 1824px){
+         header,body{
+             background: rgb(72, 151, 212);
+         }
+     }
+header{
+    width: 100%;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 170px 3fr;
+    background-color: rgb(72, 151, 212);
+
+}
+.header-logo img{
+    width: 100%;
+    height: 100px;
+}
+.nav-link{
+    display: grid;
+}
+.nav-link ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-link ul li{
+    cursor: pointer;
+    list-style: none;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    letter-spacing: 2px;
+}
+a:hover{
+    background-color: rgb(90, 164, 237);
+}
+body img{
+    width: 100%;
+    height: 50%;
+}
+.box {
+    width: 30%;
+    padding: 20px;
+    margin-left: 5%;
+    background: #a0e0e0;
+    float: left;
+    box-sizing:border-box;
+}
+.box:first-child {
+    margin-left: 0;
+}
+/* To fix parent collapsing - See 'CSS Alignment' chapter for details */
+.vm:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.vis{
+    float: left;
+    width: 50%;
+    border: 20px;
+    font-family: 'Salsa', cursive;
+}
+.hos_man{
+    font-family: 'Salsa', cursive;
+    height: 300px;
+}
+.mision{
+    font-family: 'Salsa', cursive;
+}
+aside{
+    float: right;
+    width: 50%;
+}
+ul p{
+    color: rgb(69, 8, 8);
+}
+body{
+    background-color: rgb(46, 122, 209);
+}
+footer
+{
+    text-align: center;
+    font-size: medium;
+    color: rgb(247, 243, 243);
+    background-color: rgb(71, 151, 212);
+    text-align: center;
+}
+</style>
+</head>
+<header>
+    
+    <div class="header-logo"><img src="image/lo.png" alt=""></div>
+    <nav class="nav-link">
+        <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="Solution.html">SOLUTION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="vis">
+    <h1 style="color: rgb(255, 251, 251);text-decoration: underline;">VISION</h1>
+    <ul>
+        <p>Our vision is to become leading hospital in the country</p>
+        <p>Providing health care service of international standard</p>
+        <p>We serve by delivering exceptional clinical care</p>
+        <p>We develop and strengthen collaborative relationships with all of our customers</p>
+    </ul>
+    </div>
+    <aside class="hos_man">
+       <img src="image/hospital management.png" alt="" style="height: 400px;">
+    </aside>
+    <div class="mision">
+    <h1 style="color: rgb(255, 253, 253);text-decoration: underline;">MISION</h1>
+    <ul>
+        <p>To Provide hope,care and cure</p>
+        <p>To make great health care affordable</p>
+        <p>Through Reserch and Technology integration,new knowledge and Technology will be developed.</p>
+        <p>To provide comprehensive patient care by working as a team and offering highest</p>
+    </ul>
+    </div>
+</body>
+<footer>
+    <i class="fa-solid fa-location-dot"></i> 51,BM Hospital Management Service,Dindigul.
+    <p>copyright &copy; 2024 BM Hospital Management Service.com</p>
+</footer>
+</html>
